@@ -1,0 +1,418 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Unit 5 · Day 24 · Line symmetry, and a first construction · Polymath Lab</title>
+<link rel="stylesheet" href="../assets/style.css">
+</head><body data-site="young-polymath-lab" data-root="../">
+<header class="top"><a class="brand" href="../index.html">Polymath Lab</a>
+<nav><a href="../today.html">Today</a><a href="../timetable.html">Daily plan</a><a href="../placement.html">Placement</a><a href="../levels.html">Level map</a><a href="../lessons.html">Lessons</a><a href="../notebook.html">Notebook</a><a href="../printables/index.html">Review sheets</a><a href="../progress.html">Progress</a><a href="../methods.html">Method</a></nav></header>
+<main><p class="crumbs"><a href="../index.html">Home</a> · <a href="../today.html">Today</a> · <a href="../keys/d24.html">Answer keys for this day</a> · <a href="../printables/index.html">Review sheets</a></p>
+<h1>Unit 5 · Day 24 · Line symmetry, and a first construction</h1>
+<p><strong>Today's big question:</strong> What is a line of symmetry, and how do we construct the perpendicular bisector of a segment?</p>
+<p class="note"><strong>For the guide:</strong> Folding a drawing comes first, then the compass construction (same opening from each end). A circle has many lines of symmetry; a real crater does not automatically. The math circle is a first look at why an orbit can be curved; do not invent a satellite speed.</p>
+<nav class="toc"><a href="#mental">Mental math warm-up: halves, and a diameter as a line of symmetry</a><a href="#core">Core lesson: line symmetry, and the perpendicular bisector</a><a href="#challenge">Challenge problems: more symmetry, and a fold that fails</a><a href="#circle">Math circle: why a sideways throw can look like a curve</a><a href="#spanish">Spanish · The same on both sides</a><a href="#latin">Latin · media linea, and equal sides</a><a href="#notebook">Notebook: a fold, a construction, and a because-sentence</a></nav>
+<section class="lesson" id="mental"><div class="lesson-head"><h2>Mental math warm-up: halves, and a diameter as a line of symmetry</h2><label class="done"><input type="checkbox" data-done="d24-mental"> Done</label></div><p class="meta">10 minutes · say the answer, then explain how you got it</p>
+<div class="learn" data-listen="en-US">
+<h3>Learn</h3>
+<p>A line of symmetry folds a figure onto itself. A diameter of a circle is one such line (in fact a circle has many). This warm-up also uses halves you already know. The construction in the core lesson will show how to <em>draw</em> a line of symmetry of a segment.</p>
+</div>
+<div class="remember" data-listen="en-US">
+<p class="kicker">Remember</p>
+<p>A diameter is a line of symmetry of a circle. Half of 180° is 90°. Half of a 10 cm segment is 5 cm on each side of the midpoint.</p>
+</div>
+<div class="watch" data-listen="en-US">
+<h3>Watch me</h3>
+<p>A 12 cm segment is cut at its midpoint. How long is each part?</p>
+<ol class="steps">
+<li>The midpoint is halfway.</li>
+<li>12 ÷ 2 = 6.</li>
+<li>Each part is 6 cm.</li>
+</ol>
+</div>
+<div class="together" data-listen="en-US">
+<h3>Together</h3>
+<p>A circle has a diameter of 10 cm. How many such diameters can you imagine through the center, and is that “one” or “many”?</p>
+<details>
+<summary>Hint 1: The center</summary>
+<p>Every diameter goes through the center.</p>
+</details>
+<details>
+<summary>Hint 2: How many</summary>
+<p>Many: any line through the center meets the circle in a diameter. A circle has infinitely many lines of symmetry in this ideal model.</p>
+</details>
+</div>
+<div class="check">
+<h3>Check</h3>
+<p>These use halves and the idea of a line of symmetry.</p>
+<ol>
+<li>Half of a 90° angle.</li>
+<li>A 14 cm segment: length from one end to the midpoint.</li>
+</ol>
+</div>
+<h3>Practice</h3>
+<ol>
+<li>Why is a non-square rectangle’s longer midline a line of symmetry, but a diagonal of that same rectangle is not?</li>
+</ol><p class="keylink"><a href="../printables/d24-mental.html">Review sheet for this lesson</a> (one page, only what this lesson taught)</p><p class="keylink"><a href="../keys/d24.html#mental">Answer key →</a></p></section>
+<section class="lesson" id="core"><div class="lesson-head"><h2>Core lesson: line symmetry, and the perpendicular bisector</h2><label class="done"><input type="checkbox" data-done="d24-core"> Done</label></div><p class="meta">35–40 minutes · Method: concrete (fold a drawing), pictorial (the marked triangle), then a compass-and-straightedge construction</p>
+<div class="learn" data-listen="en-US">
+<h3>Learn</h3>
+<div class="figure">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 180" width="280" height="180" role="img" aria-label="An isosceles triangle with a dashed line of symmetry from the top vertex to the midpoint of the base." class="diagram">
+<polygon points="140,20 40,160 240,160" fill="#f3f3f3" stroke="#222" stroke-width="1.8"/>
+<line x1="140" y1="20" x2="140" y2="160" stroke="#222" stroke-width="1.4" stroke-dasharray="5 4"/>
+<circle cx="140" cy="160" r="2.2" fill="#222"/>
+<text x="148" y="100" font-size="13">line of symmetry</text>
+</svg>
+</div>
+<p><strong>A line of symmetry</strong> is a line that folds a figure onto itself, so that every point lands on a matching point. The pictured isosceles triangle has one line of symmetry: from the top vertex to the midpoint of the base. A <strong>regular hexagon</strong> has six lines of symmetry. A <strong>circle</strong> has a line of symmetry in every direction through the center (every diameter).</p>
+<p><strong>A real crater is not perfectly symmetric.</strong> The NASA figure “about 85 km” for Tycho is a diameter of a roughly circular feature. The ideal circle we draw has many lines of symmetry; the real rim does not, and we will say so.</p>
+<p><strong>The perpendicular bisector of a segment</strong> is the line that cuts the segment at its midpoint and meets it at a right angle. That line is the line of symmetry of the segment. It is also the set of points that are the same distance from both ends of the segment.</p>
+<p><strong>A construction (compass and straightedge).</strong> To draw the perpendicular bisector of a segment AB:
+1. Open the compass to more than half of AB.
+2. From A, draw an arc on both sides of AB.
+3. From B, with the <em>same</em> opening, draw an arc on both sides, so the arcs cross at two points, call them P and Q.
+4. The straight line through P and Q is the perpendicular bisector of AB. It meets AB at the midpoint M, at a right angle.</p>
+<p>You should try this with a compass, not only look at a picture. The “same opening” matters: if the two openings differ, the crossings are not on the line of symmetry.</p>
+<p>This is a first construction in this lab, not a full course in constructions. We do not yet construct a regular hexagon or a tangent.</p>
+</div>
+<div class="remember" data-listen="en-US">
+<p class="kicker">Remember</p>
+<p>A line of symmetry folds a figure onto itself. A circle has many (every diameter). The perpendicular bisector of AB is the line of symmetry of AB; it meets AB at its midpoint, at a right angle. Construction: same compass opening from each end; the line through the two crossings is the perpendicular bisector. A real crater is not perfectly symmetric.</p>
+</div>
+<div class="watch" data-listen="en-US">
+<h3>Watch me</h3>
+<p>A segment is 10 cm long. Where does its perpendicular bisector meet the segment, and at what angle?</p>
+<ol class="steps">
+<li>It meets the segment at the midpoint.</li>
+<li>The midpoint is 5 cm from each end.</li>
+<li>The angle is a right angle, 90°.</li>
+</ol>
+</div>
+<div class="together" data-listen="en-US">
+<h3>Together</h3>
+<p>Why do the two compass openings have to be the same, in the construction?</p>
+<details>
+<summary>Hint 1: Equal distances</summary>
+<p>Each crossing is meant to be the same distance from A as from B.</p>
+</details>
+<details>
+<summary>Hint 2: If they differ</summary>
+<p>If the openings differ, a crossing is closer to one end, and the line is not the bisector.</p>
+</details>
+</div>
+<div class="check">
+<h3>Check</h3>
+<p>These use only today’s symmetry and construction facts.</p>
+<ol>
+<li>How many lines of symmetry does the pictured isosceles triangle have, if only two sides are equal (the two long sides in the figure)?</li>
+<li>Name one line of symmetry of a circle, and say why “every diameter” is a fair answer.</li>
+</ol>
+</div>
+<h3>Practice</h3>
+<ol>
+<li>A non-square rectangle: how many lines of symmetry? (Not the diagonals.)</li>
+<li>Why is a diagonal of that rectangle not a line of symmetry?</li>
+<li>List the four construction steps in your own words, including “same opening.”</li>
+<li>Tycho is about 85 km across (NASA). Why should we not say “Tycho has infinitely many lines of symmetry” without a caution?</li>
+<li>Draw a segment, construct its perpendicular bisector (or show the two arc crossings), and mark the midpoint and the right angle.</li>
+</ol><p class="keylink"><a href="../printables/d24-core.html">Review sheet for this lesson</a> (one page, only what this lesson taught)</p><p class="keylink"><a href="../keys/d24.html#core">Answer key →</a></p></section>
+<section class="lesson" id="challenge"><div class="lesson-head"><h2>Challenge problems: more symmetry, and a fold that fails</h2><label class="done"><input type="checkbox" data-done="d24-challenge"> Done</label></div><p class="meta">20–25 minutes · the same ideas, with a counter-example</p>
+<div class="learn" data-listen="en-US">
+<h3>Learn</h3>
+<p>These problems use line symmetry and the perpendicular bisector. A regular hexagon and a circle are rich in lines of symmetry; a scalene triangle (no equal sides) has none.</p>
+</div>
+<div class="remember" data-listen="en-US">
+<p class="kicker">Remember</p>
+<p>Line of symmetry: a fold onto itself. Perpendicular bisector: midpoint and 90°. Regular hexagon: six lines. Scalene triangle: none. A crater caution still applies.</p>
+</div>
+<div class="watch" data-listen="en-US">
+<h3>Watch me</h3>
+<p>A regular hexagon: how many lines of symmetry, and how do they run?</p>
+<ol class="steps">
+<li>Six.</li>
+<li>Three through opposite vertices, and three through the midpoints of opposite sides.</li>
+<li>Each is a fold that lands the hexagon on itself, because all sides and all angles are equal.</li>
+</ol>
+</div>
+<div class="together" data-listen="en-US">
+<h3>Together</h3>
+<p>A scalene triangle has side lengths 5 cm, 6 cm, and 7 cm (invented). How many lines of symmetry, and why?</p>
+<details>
+<summary>Hint 1: What a fold would need</summary>
+<p>A line of symmetry would have to match sides to equal sides.</p>
+</details>
+<details>
+<summary>Hint 2: The lengths</summary>
+<p>No two sides are equal, so no such fold. Zero lines of symmetry.</p>
+</details>
+</div>
+<div class="check">
+<h3>Check</h3>
+<p>These stay with today’s symmetry facts.</p>
+<ol>
+<li>The perpendicular bisector of a diameter of a circle: where does it meet the circle again, and what is that new segment?</li>
+<li>Why does folding a drawing of Tycho “in half” not prove the crater has a line of symmetry the way a drawn circle does?</li>
+</ol>
+</div>
+<h3>Practice</h3>
+<ol>
+<li>An isosceles triangle that is not equilateral: how many lines of symmetry?</li>
+<li>An equilateral triangle: how many?</li>
+<li>Write one sentence you want to keep: model symmetry versus a real crater.</li>
+</ol><p class="keylink"><a href="../printables/d24-challenge.html">Review sheet for this lesson</a> (one page, only what this lesson taught)</p><p class="keylink"><a href="../keys/d24.html#challenge">Answer key →</a></p></section>
+<section class="lesson" id="circle"><div class="lesson-head"><h2>Math circle: why a sideways throw can look like a curve</h2><label class="done"><input type="checkbox" data-done="d24-circle"> Done</label></div><p class="meta">20 minutes · a first look at a curved path, not a new formula and not a full orbit calculation</p>
+<div class="learn" data-listen="en-US">
+<h3>Learn</h3>
+<p>The level map asks why orbits are curved. Here is an honest first look, not a derivation of Newton’s law and not a circumference problem in disguise. If you throw a ball sideways, it falls while it travels forward, so its path is curved (a short arc, in the classroom). If the ground itself curves away — as it does on a sphere — a faster sideways throw travels farther before meeting the ground. Newton’s thought, in outline, is that a fast enough sideways throw would keep missing the ground and go around. That is a reason an orbit can be a closed curve, not a claim that we have computed a satellite’s speed today, and not a claim that every orbit is a perfect circle (most are closer to ellipses, which this level does not compute).</p>
+</div>
+<div class="remember" data-listen="en-US">
+<p class="kicker">Remember</p>
+<p>A sideways throw plus a fall makes a curve. An orbit can be thought of as a throw that keeps missing a curved ground. We do not compute an orbital speed today. Orbits are not all perfect circles.</p>
+</div>
+<div class="watch" data-listen="en-US">
+<h3>Watch me</h3>
+<p>Why is the path of a classroom sideways throw curved, even though “forward” and “down” can be talked about separately?</p>
+<ol class="steps">
+<li>The ball moves forward and, at the same time, falls.</li>
+<li>The two motions together are a curve, not a broken line of “along, then down.”</li>
+<li>This is the same idea as a short arc, not a new formula.</li>
+</ol>
+</div>
+<div class="together" data-listen="en-US">
+<h3>Together</h3>
+<p>What would you still have to say, if you used this idea to talk about a spacecraft?</p>
+<details>
+<summary>Hint 1: Not a speed</summary>
+<p>We have not computed how fast it would have to go.</p>
+</details>
+<details>
+<summary>Hint 2: Not always a circle</summary>
+<p>A real orbit need not be a perfect circle, and this level does not compute ellipses.</p>
+</details>
+</div>
+<div class="check">
+<h3>Check</h3>
+<p>The point is the idea, not a satellite calculation.</p>
+<ol>
+<li>Why is “the orbit is a circumference C = πd” not a complete account of an orbit, even for a circular model?</li>
+<li>Name one thing this argument does <em>not</em> prove (a speed, a period, or that every orbit is a circle).</li>
+</ol>
+</div>
+<h3>Practice</h3>
+<ol>
+<li>Give one sentence you want to keep: a curve from two motions, not a new NASA speed.</li>
+</ol><p class="keylink"><a href="../printables/d24-circle.html">Review sheet for this lesson</a> (one page, only what this lesson taught)</p><p class="keylink"><a href="../keys/d24.html#circle">Answer key →</a></p></section>
+<section class="lesson" id="spanish"><div class="lesson-head"><h2>Spanish · The same on both sides</h2><label class="done"><input type="checkbox" data-done="d24-spanish"> Done</label></div><p class="meta">15 minutes · Instruction in English; Hear for Spanish words · present tense only</p>
+<div class="learn" data-listen="en-US">
+<h3>Learn</h3>
+<table class="wordlist" data-voice="es-MX">
+<thead>
+<tr>
+<th>Word</th>
+<th>How to say it</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>igual</td>
+<td>ee-GWAHL</td>
+<td>equal; the same</td>
+</tr>
+<tr>
+<td>los dos lados</td>
+<td>lohs dohs LAH-dohs</td>
+<td>both sides</td>
+</tr>
+<tr>
+<td>se ve igual</td>
+<td>seh veh ee-GWAHL</td>
+<td>it looks the same</td>
+</tr>
+<tr>
+<td>el medio</td>
+<td>el MEH-dee-oh</td>
+<td>the middle</td>
+</tr>
+<tr>
+<td>una línea</td>
+<td>OO-nah LEE-neh-ah</td>
+<td>a line</td>
+</tr>
+</tbody>
+</table>
+<p>Original sentences: <em>Hay una línea en el medio.</em> <em>Se ve igual en los dos lados.</em> <em>Los dos lados son iguales.</em></p>
+<p class="note"><strong>For the guide:</strong> fold a paper or point to the dashed line. Present tense only. Instruction in English.</p>
+</div>
+<div class="remember" data-listen="en-US">
+<p class="kicker">Remember</p>
+<p>igual; los dos lados; se ve igual; el medio; una línea. Instruction in English. Hear for Spanish words.</p>
+</div>
+<div class="watch" data-listen="en-US">
+<h3>Watch me</h3>
+<p>Say: “It looks the same on both sides.”</p>
+<ol class="steps">
+<li><em>Se ve igual en los dos lados.</em></li>
+<li>Se ve: it looks. Igual: the same.</li>
+<li>Point to a fold or the dashed line.</li>
+</ol>
+</div>
+<div class="together" data-listen="en-US">
+<h3>Together</h3>
+<p>How do you say “There is a line in the middle”?</p>
+<details>
+<summary>Hint 1: The noun</summary>
+<p>una línea</p>
+</details>
+<details>
+<summary>Hint 2: The sentence</summary>
+<p><em>Hay una línea en el medio.</em></p>
+</details>
+</div>
+<div class="check">
+<h3>Check</h3>
+<p>These use only today’s phrases.</p>
+<ol>
+<li>Write: “Both sides are equal.”</li>
+<li>Write one sentence with se ve igual or en el medio.</li>
+</ol>
+</div>
+<h3>Exercises</h3>
+<ol>
+<li>Hear igual, lados, and línea, then use each.</li>
+<li>A pointing retell of the three model sentences.</li>
+<li>Copy one model sentence.</li>
+<li>If you mention a crater, add in English that perfect symmetry is a model.</li>
+<li>Correct a near-miss such as *los dos lado.</li>
+</ol><p class="keylink"><a href="../printables/d24-spanish.html">Review sheet for this lesson</a> (one page, only what this lesson taught)</p><p class="keylink"><a href="../keys/d24.html#spanish">Answer key →</a></p></section>
+<section class="lesson" id="latin"><div class="lesson-head"><h2>Latin · media linea, and equal sides</h2><label class="done"><input type="checkbox" data-done="d24-latin"> Done</label></div><p class="meta">15 minutes · Method: picture-based Latin; original sentences. Instruction in English.</p>
+<div class="learn" data-listen="en-US">
+<h3>Learn</h3>
+<table class="wordlist" data-voice="la">
+<thead>
+<tr>
+<th>Word</th>
+<th>How to say it</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>media linea</td>
+<td>MEH-dee-ah LIN-eh-ah</td>
+<td>a middle line</td>
+</tr>
+<tr>
+<td>āequālis</td>
+<td>eye-KWAH-lis</td>
+<td>equal</td>
+</tr>
+<tr>
+<td>Latera āequālia sunt</td>
+<td>LAH-teh-rah eye-KWAH-lee-ah sunt</td>
+<td>The sides are equal</td>
+</tr>
+<tr>
+<td>Linea in mediō est</td>
+<td>LIN-eh-ah in MEH-dee-oh est</td>
+<td>The line is in the middle</td>
+</tr>
+</tbody>
+</table>
+<p class="note">The Hear-word button uses an Italian voice as an approximation of Latin, not the speech of ancient Rome.</p>
+<p>Original sentences: <em>Media linea in mediō est.</em> <em>Latera āequālia sunt.</em> <em>Latera nōn āequālia sunt.</em></p>
+<p><em>āequālia</em> is the neuter plural, to match <em>latera</em>. No degree numbers in the Latin.</p>
+<p class="note"><strong>For the guide:</strong> Italian-voice Hear, labeled as an approximation.</p>
+</div>
+<div class="remember" data-listen="en-US">
+<p class="kicker">Remember</p>
+<p>media linea; latera āequālia sunt; linea in mediō est. āequālia matches latera (neuter plural). No degrees in the Latin.</p>
+</div>
+<div class="watch" data-listen="en-US">
+<h3>Watch me</h3>
+<p>Read: <em>Latera āequālia sunt.</em> Why *āequālia, not *āequālis?</p>
+<ol class="steps">
+<li>latera is neuter plural.</li>
+<li>The adjective matches: āequālia.</li>
+<li>The sentence says the sides are equal.</li>
+</ol>
+</div>
+<div class="together" data-listen="en-US">
+<h3>Together</h3>
+<p>Say: “The line is in the middle.”</p>
+<details>
+<summary>Hint 1: Place where</summary>
+<p>in mediō, ablative.</p>
+</details>
+<details>
+<summary>Hint 2: The sentence</summary>
+<p><em>Linea in mediō est.</em></p>
+</details>
+</div>
+<div class="check">
+<h3>Check</h3>
+<p>These use only today’s patterns.</p>
+<ol>
+<li>Write: “The sides are not equal.”</li>
+<li>Write: “The middle line is in the middle.”</li>
+</ol>
+</div>
+<h3>Exercises</h3>
+<ol>
+<li>Correct: *latera āequālis sunt.</li>
+<li>Read the model sentences aloud.</li>
+<li>Draw a figure with a middle line, labeled in Latin.</li>
+<li>Why is the construction left in the English mathematics?</li>
+<li>Copy one model sentence.</li>
+</ol><p class="keylink"><a href="../printables/d24-latin.html">Review sheet for this lesson</a> (one page, only what this lesson taught)</p><p class="keylink"><a href="../keys/d24.html#latin">Answer key →</a></p></section>
+<section class="lesson" id="notebook"><div class="lesson-head"><h2>Notebook: a fold, a construction, and a because-sentence</h2><label class="done"><input type="checkbox" data-done="d24-notebook"> Done</label></div><p class="meta">60 minutes · draw first, then label, then write · <a href="../notebook.html">How the notebook works</a> · <a href="../printables/d24-notebook.html">Review sheet</a></p>
+<div class="learn" data-listen="en-US">
+<h3>Learn</h3>
+<p>Draw the isosceles triangle with its line of symmetry, and construct (or carefully show) the perpendicular bisector of a segment, with the two arc crossings, the midpoint, and a right-angle mark. Then because / but / so: a circle has a line of symmetry through the center, <em>but</em> Tycho’s rim is not a perfect circle, <em>so</em> I will not give the crater “infinitely many lines of symmetry” without calling that a model.</p>
+<p>Word bank: symmetry, fold, midpoint, perpendicular, bisector, compass, diameter, model, crater.</p>
+</div>
+<div class="remember" data-listen="en-US">
+<p class="kicker">Remember</p>
+<p>Draw and construct first. Complete stems. The construction needs a same compass opening. A crater caution belongs on the page. The page is not a badge.</p>
+</div>
+<div class="watch" data-listen="en-US">
+<h3>Watch me</h3>
+<p>A model sentence: <em>The line through the arc crossings is the perpendicular bisector because each crossing is the same distance from both ends, but that is a property of the construction, so I will not skip the “same opening” step.</em></p>
+<ol class="steps">
+<li>Equal compass openings make equal distances.</li>
+<li>The but names the reason.</li>
+<li>The so keeps the step.</li>
+</ol>
+</div>
+<div class="together" data-listen="en-US">
+<h3>Together</h3>
+<p>Finish: <em>I can call a diameter a line of symmetry of a circle, because ________, but Tycho is only roughly circular, so ________.</em></p>
+<details>
+<summary>Hint 1: The circle</summary>
+<p>…a fold through the center lands the ideal circle on itself.</p>
+</details>
+<details>
+<summary>Hint 2: The crater</summary>
+<p>…I will treat “infinitely many lines” as a property of the model, not of the surveyed rim.</p>
+</details>
+</div>
+<div class="check">
+<h3>Check</h3>
+<p>The page should show the fold, the construction, and complete stems.</p>
+<ol>
+<li>Draw the triangle with its dashed line of symmetry, and a constructed (or fully marked) perpendicular bisector.</li>
+<li>Write a three-stem explanation that keeps ideal circle symmetry apart from a real crater.</li>
+</ol>
+</div>
+<h3>Practice</h3>
+<ol>
+<li>List the four construction steps in short form.</li>
+<li>Tick the word-bank words you used.</li>
+<li>The page is not a score.</li>
+<li>A note that a scalene triangle has no line of symmetry, if you have space.</li>
+<li>File the page. It is not a reward.</li>
+</ol><p class="keylink"><a href="../printables/d24-notebook.html">Review sheet for this lesson</a> (one page, only what this lesson taught)</p><p class="keylink"><a href="../keys/d24.html#notebook">Answer key →</a></p></section></main>
+<footer><p>Mathematics through space and physics. Progress is saved only in this browser (localStorage); nothing is sent anywhere.</p></footer>
+<script src="../assets/days.js"></script><script src="../assets/app.js"></script><script src="../assets/listen.js"></script>
+</body></html>
