@@ -1,0 +1,28 @@
+# Level map
+
+Twelve levels, from first foundations to pre-algebra. They are **not grades**: you start where the placement check says, and move on when a level is mastered (at least 80% on its unit checks, and able to explain the methods aloud). Strong students often move through the early levels quickly; the challenge and circle problems keep the work deep while the pace is fast.
+
+Every level has the same strands: **number and calculation**, **modelling with bar diagrams**, **problem solving** (challenge problems), **reasoning and proof** (math circle) and **science in action** (notebook projects).
+
+| Level | Mathematics | Space and physics theme | Status |
+|---|---|---|---|
+| 1 | Numbers to 1,000; addition and subtraction facts; making ten | Counting stars and craters; day and night | planned |
+| 2 | Place value to 10,000; mental addition and subtraction; first bar models | Rocket heights; shadows through the day | planned |
+| 3 | Multiplication and division facts; equal groups; arrays | Patterns in orbits; the week and the Moon | planned |
+| 4 | Numbers to a billion; multi-digit addition and subtraction; rounding and estimating; part-whole and comparison models | Distances in the Solar System; scale models | **Unit 1 written (Days 1–5)** |
+| 5 | Multi-digit multiplication and division; area model; remainders; time and rates | The ISS, Earth's orbit, light-time, the pendulum | **Unit 2 written (Days 6–10)** |
+| 6 | Fractions: parts of a whole, equivalence, comparing, adding and subtracting | Moon phases; gravity on other worlds (the Moon's is about 1/6 of Earth's) | planned |
+| 7 | Measurement and the metric system; perimeter, area, volume | Designing a base on Mars; how much air and water | planned |
+| 8 | Geometry: angles, polygons, circles (radius, diameter, circumference), symmetry, constructions | Telescopes and lenses; craters; why orbits are curved | planned |
+| 9 | Decimals and negative numbers | Planet temperatures; precise measurements | planned |
+| 10 | Ratio, rate, scale and percent | Scale maps of the sky; rocket fuel mixtures; speed | planned |
+| 11 | Pre-algebra: unknowns, equations, patterns and functions | Patterns in planetary data; the balance and the lever | planned |
+| 12 | Data, graphs and probability | Counting meteors; sunspots; measuring with error | planned |
+
+**Running through every level:** the math circle strand (logic, systematic counting, parity, invariants, the pigeonhole principle, number theory, geometry puzzles) and the notebook strand (observation, measurement, experiments, invention).
+
+## What "mastered" means
+
+1. At least 80% on each part of the unit check, done alone.
+2. Able to explain each method with a drawing (the pictorial step), not only perform it.
+3. Has attempted every challenge problem in the unit (solving them all is not required).

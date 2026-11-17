@@ -1,0 +1,19 @@
+{
+  "title": "Polymath Lab",
+  "storage_key": "young-polymath-lab",
+  "footer": "Mathematics through space and physics. Progress is saved only in this browser (localStorage); nothing is sent anywhere.",
+  "nav": [["Today","today.html"],["Daily plan","timetable.html"],["Placement","placement.html"],["Level map","levels.html"],["Lessons","lessons.html"],["Notebook","notebook.html"],["Progress","progress.html"],["Method","methods.html"]],
+  "days": ["d01","d02","d03","d04","d05","d06","d07","d08","d09","d10"],
+  "timetable": {
+    "days": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+    "rows": [
+      {"time":"9:00–9:10","cells":["Mental math","Mental math","Mental math","Mental math","Mental math"]},
+      {"time":"9:10–9:55","cells":["Core lesson (concrete → pictorial → abstract) and practice","Core lesson and practice","Core lesson and practice","Core lesson and practice","Core lesson and practice"]},
+      {"time":"9:55–10:10","break":true,"cells":["Movement break","Movement break","Movement break","Movement break","Movement break"]},
+      {"time":"10:10–10:35","cells":["Challenge problems","Challenge problems","Challenge problems","Challenge problems","Challenge problems"]},
+      {"time":"10:35–10:55","cells":["Math circle","Math circle","Math circle","Math circle","Math circle"]},
+      {"time":"10:55–11:15","break":true,"cells":["Snack and free time","Snack and free time","Snack and free time","Snack and free time","Snack and free time"]},
+      {"time":"11:15–12:15","cells":["Notebook and project time","Notebook and project time","Notebook and project time","Notebook and project time","Notebook and project time"]}
+    ]
+  }
+}
