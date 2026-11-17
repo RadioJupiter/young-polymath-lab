@@ -2,7 +2,7 @@
 
 Twelve levels, from first foundations to pre-algebra. They are **not grades**: you start where the placement check says, and move on when a level is mastered (at least 80% on its unit checks, and able to explain the methods aloud). Strong students often move through the early levels quickly; the challenge and circle problems keep the work deep while the pace is fast.
 
-Every level has the same strands: **number and calculation**, **modelling with bar diagrams**, **problem solving** (challenge problems), **reasoning and proof** (math circle) and **science in action** (notebook projects).
+Every level has the same strands: **number and calculation**, **modeling with bar diagrams**, **problem solving** (challenge problems), **reasoning and proof** (math circle) and **science in action** (notebook projects).
 
 | Level | Mathematics | Space and physics theme | Status |
 |---|---|---|---|

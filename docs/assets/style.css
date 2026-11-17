@@ -27,7 +27,7 @@ th,td{border:1px solid var(--rule);padding:.4rem .55rem;text-align:left;vertical
 th{background:var(--accent-soft)}
 table.timetable td.time{white-space:nowrap;color:var(--muted)}
 table.timetable tr.break td{background:#f6f3ec;color:var(--muted);font-style:italic}
-.lesson{background:var(--card);border:1px solid var(--rule);border-radius:6px;padding:.4rem 1.4rem 1rem;margin:1.6rem 0}
+.lesson{background:var(--card);border:1px solid var(--rule);border-radius:6px;padding:.4rem 1.4rem 1rem;margin:1.6rem 0;scroll-margin-top:5.5rem}
 .lesson.key{border-left:4px solid var(--accent)}
 .lesson-head{display:flex;justify-content:space-between;align-items:baseline;gap:1rem;border-bottom:1px solid var(--rule)}
 .lesson-head h2{margin:.9rem 0 .5rem}

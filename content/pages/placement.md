@@ -43,7 +43,7 @@ Do this with your guide over one or two sittings. It is not a test to pass: it f
 ## Level 7
 25. Find the perimeter of a rectangle 7 cm by 4 cm.
 26. Find its area.
-27. How many centimetres are in 3 metres?
+27. How many centimeters are in 3 meters?
 28. How many 1 cm cubes fill a box 3 cm by 4 cm by 5 cm?
 
 ## Level 8

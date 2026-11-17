@@ -30,7 +30,7 @@ Ten minutes of mental calculation opens each day. Fluent facts and strategies (m
 
 ## 7. Space and physics, with real numbers
 
-Every unit is set in astronomy or physics: distances in the Solar System, the speed of light, orbits, pendulums, the Moon's phases. All numbers come from authoritative sources (NASA's planetary fact sheets, the international definitions of the metre and the astronomical unit) and are rounded honestly, with the rounding stated. Experiments use household materials.
+Every unit is set in astronomy or physics: distances in the Solar System, the speed of light, orbits, pendulums, the Moon's phases. All numbers come from authoritative sources (NASA's planetary fact sheets, the international definitions of the meter and the astronomical unit) and are rounded honestly, with the rounding stated. Experiments use household materials.
 
 ## 8. Spanish, by comprehensible input
 
@@ -42,7 +42,7 @@ Fifteen minutes a day of short Latin captions and stories, understood from pictu
 
 ## 10. The notebook, with writing built in steps
 
-The hour of notebook and project time, modelled on Leonardo da Vinci's notebooks, is where mathematics meets the world: observing, measuring, drawing from life and inventing. Because writing is often the hard part, the hour always goes **draw → label from a word bank → sentences from stems**, then gradually *because / but / so*, sentence expansion, and short paragraphs, using the sentence-level activities of The Writing Revolution (Hochman and Wexler, 2017). The guide's role at each step is set out on [How the notebook works](notebook.html).
+The hour of notebook and project time, modeled on Leonardo da Vinci's notebooks, is where mathematics meets the world: observing, measuring, drawing from life and inventing. Because writing is often the hard part, the hour always goes **draw → label from a word bank → sentences from stems**, then gradually *because / but / so*, sentence expansion, and short paragraphs, using the sentence-level activities of The Writing Revolution (Hochman and Wexler, 2017). The guide's role at each step is set out on [How the notebook works](notebook.html).
 
 ## 11. What is deliberately left out
 

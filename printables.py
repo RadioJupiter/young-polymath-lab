@@ -1,6 +1,6 @@
 """Build one short review sheet per lesson into docs/printables/.
 
-Each sheet is one page (at most two) and only practises what that lesson taught:
+Each sheet is one page (at most two) and only practices what that lesson taught:
 the Remember card, the Check questions, and a few matching practice items.
 No combined unit packets. Answer keys stay on the day's key page, not on the sheet.
 """
@@ -106,11 +106,12 @@ def fmt_item(text: str) -> str:
 
 
 def item_box(n: int, text: str, tall: bool = False) -> str:
-    kind = "work tall" if tall or len(text) > 180 else "work short"
-    # notebook / draw prompts get a taller box
     low = text.lower()
-    if any(w in low for w in ("draw ", "bar model", "chart", "graph", "map ")):
+    asks_draw = any(w in low for w in ("draw ", "draw a", "draw the", "bar model", "on a chart", "on a place-value", "graph"))
+    if tall or asks_draw or len(text) > 220:
         kind = "work tall"
+    else:
+        kind = "work short"
     return f'<div class="item"><p><strong>{n}.</strong> {fmt_item(text)}</p><div class="{kind}"></div></div>\n'
 
 
@@ -186,7 +187,7 @@ def build_printables(site, src: Path, out: Path, page_fn):
     index_bits = [
         f"<h1>Review sheets</h1>",
         "<p>Each lesson has its own short review sheet (one page, at most two). "
-        "Use it after the lesson, for retention. It practises only what that lesson taught. "
+        "Use it after the lesson, for retention. It practices only what that lesson taught. "
         "There are no combined unit packets. Answer keys stay on each day's key page.</p>",
     ]
     for day_id, day_title, links in groups:

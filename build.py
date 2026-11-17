@@ -19,8 +19,85 @@ SRC, OUT = ROOT / "content", ROOT / "docs"
 site = json.loads((SRC / "site.json").read_text())
 MD_EXT = ["tables", "fenced_code", "attr_list", "md_in_html", "sane_lists", "footnotes"]
 
+
+VOID_TAGS = {"area", "base", "br", "col", "embed", "hr", "img", "input", "link", "meta", "param", "source", "track", "wbr"}
+SKIP_MD_TAGS = {"svg", "script", "style", "pre", "code", "textarea", "math"}
+CONTENT_DIV_RE = re.compile(r'\bclass\s*=\s*["\']([^"\']*)["\']')
+CONTENT_DIV_CLASSES = {"learn", "remember", "watch", "together", "check", "note", "pic-cap"}
+INNER_MD_TAGS = {"p", "li", "td", "th", "ol", "ul", "details", "summary", "blockquote"}
+BLOCK_OPEN = re.compile(r'(>)([^\S\n]*)(<(?:div|ol|ul|table|details|svg|blockquote|section|article|aside|p|h1|h2|h3|h4|h5|h6)\b)', re.I)
+_OPEN_OR_CLOSE = re.compile(
+    r"(?s)<!--.*?-->|<!\[CDATA\[.*?\]\]>|</([A-Za-z][\w:.-]*)\s*>|<([A-Za-z][\w:.-]*)(\s[^>]*?)?\s*/?>"
+)
+
+_MD_MARK = re.compile(r"\*\*|`")
+
+def _has_md_markup(s: str) -> bool:
+    return bool(_MD_MARK.search(s or ""))
+
+def _div_needs_md(attrs: str) -> bool:
+    if re.search(r'\bdata-listen\b', attrs or ""):
+        return True
+    m = CONTENT_DIV_RE.search(attrs or "")
+    if not m:
+        return False
+    classes = set(m.group(1).split())
+    return bool(classes & CONTENT_DIV_CLASSES)
+
+def _isolate_block_html(text: str) -> str:
+    """Put glued block-level tags on their own line so md_in_html does not wrap them in <p>."""
+    return BLOCK_OPEN.sub(r'>\n\3', text)
+
+def enable_md_in_html(text: str) -> str:
+    """Add markdown=\"1\" so Python-Markdown's md_in_html extension renders emphasis,
+    lists and inline code inside raw HTML wrappers (learn/watch/together/details, etc.).
+    Decorative diagrams (number bonds, discs, bar models, SVG) are left alone."""
+    text = _isolate_block_html(text)
+    skip = []
+    out = []
+    pos = 0
+    for m in _OPEN_OR_CLOSE.finditer(text):
+        out.append(text[pos:m.start()])
+        token = m.group(0)
+        pos = m.end()
+        if token.startswith("<!--") or token.startswith("<![CDATA"):
+            out.append(token)
+            continue
+        if token.startswith("</"):
+            name = m.group(1).lower()
+            if skip and skip[-1] == name:
+                skip.pop()
+            out.append(token)
+            continue
+        name = m.group(2).lower()
+        attrs = m.group(3) or ""
+        self_closing = token.rstrip().endswith("/>") or name in VOID_TAGS
+        if skip:
+            out.append(token)
+            if not self_closing and name in SKIP_MD_TAGS:
+                skip.append(name)
+            continue
+        if name in SKIP_MD_TAGS and not self_closing:
+            skip.append(name)
+            out.append(token)
+            continue
+        needs = False
+        if name == "div" and _div_needs_md(attrs):
+            needs = True
+        elif name in INNER_MD_TAGS:
+            needs = True
+        if needs and not self_closing and not re.search(r'\bmarkdown\s*=', attrs, re.I):
+            core = token[:-1].rstrip()
+            out.append(core + ' markdown="1">')
+            continue
+        out.append(token)
+    out.append(text[pos:])
+    return "".join(out)
+
 def md(text):
-    return markdown.markdown(text, extensions=MD_EXT, output_format="html5")
+    html = markdown.markdown(enable_md_in_html(text), extensions=MD_EXT, output_format="html5")
+    # md_in_html strips this attribute when it processes a tag; remove any leftover.
+    return re.sub(r'\smarkdown="1"', "", html)
 
 def page(title, body, depth=0, extra_head=""):
     pre = "../" * depth

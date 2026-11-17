@@ -26,9 +26,9 @@ a{color:#000}
 h2{font-size:11pt;margin:.7rem 0 .3rem;font-weight:700}
 ol,ul{margin:.2rem 0 .5rem;padding-left:1.2rem}
 li{margin:.2rem 0}
-.work{min-height:.85in;border:1px solid #000;margin:.15rem 0 .3rem;padding:.15rem}
-.work.short{min-height:.32in}
-.work.tall{min-height:1.25in}
+.work{min-height:.55in;border:1px solid #000;margin:.15rem 0 .3rem;padding:.15rem}
+.work.short{min-height:.28in}
+.work.tall{min-height:.7in}
 .draw{width:100%;height:2.7in;border:2px solid #000;margin:.25rem 0 .35rem}
 .bank{border:1px solid #000;padding:.25rem .4rem;margin:.25rem 0 .4rem;font-size:10.5pt}
 .bank strong{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;font-size:8.5pt}
@@ -68,3 +68,7 @@ svg.pic{display:block;margin:.3rem 0;max-width:100%;height:auto}
 .remember{border:2px solid #000;padding:.4rem .5rem;margin:.2rem 0 .5rem}
 .remember .kicker{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;font-size:8pt;letter-spacing:.08em;text-transform:uppercase;margin:0 0 .2rem;font-weight:700}
 .remember p{margin:.15rem 0}
+
+.item p{margin:0 0 .08rem}
+.item{margin:0 0 .15rem}
+.remember{page-break-inside:avoid}
