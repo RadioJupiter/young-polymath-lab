@@ -5,7 +5,7 @@
 **Level 1:** 15 · 7 · 76 · 290
 **Level 2:** 4 thousands, 0 hundreds, 3 tens, 6 ones · 632 · 736 · 45 m; 108 m
 **Level 3:** 56 · 9 · 36 · 40 (each bag holds 8)
-**Level 4:** three million, fifty thousand, four hundred · 47,000 · 66,301 · 31,237
+**Level 4:** chart shows 3 millions, 5 ten-thousands, 4 hundreds; 10 × 3,050,400 = 30,504,000; 3,050,400 = 3,000,000 + 50,400 · 47,000 · 66,301 · 31,237
 **Level 5:** 2,282 · 1,200 · 153 · 900
 **Level 6:** any correct drawing with 3 of 4 equal parts shaded · 2/3 (2/3 = 10/15 and 3/5 = 9/15) · 3/4 · 9
 **Level 7:** 22 cm · 28 cm² · 300 · 60

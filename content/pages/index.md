@@ -9,7 +9,7 @@ Real mathematics, learned through the real universe. Every unit is built around 
 <a href="levels.html"><strong>Level map</strong><span>Twelve levels, from first foundations to pre-algebra.</span></a>
 <a href="lessons.html"><strong>Lessons</strong><span>Units 1 and 2: ten complete days.</span></a>
 <a href="notebook.html"><strong>Notebook</strong><span>How the notebook works: draw, label, then write.</span></a>
-<a href="printables/index.html"><strong>Printables</strong><span>Worksheets to print for Units 1 and 2.</span></a>
+<a href="printables/index.html"><strong>Review sheets</strong><span>One short sheet for each lesson, for retention.</span></a>
 <a href="progress.html"><strong>Progress</strong><span>Your checkmarks, saved only in this browser.</span></a>
 <a href="methods.html"><strong>Method</strong><span>How and why this is taught the way it is.</span></a>
 <a href="sources.html"><strong>Sources</strong><span>Where every fact and method comes from.</span></a>

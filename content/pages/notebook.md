@@ -11,7 +11,7 @@ Do the steps in this order. Do not start with a blank paragraph.
 3. **Make sentences from stems.** The lesson gives unfinished sentences (and, as the days go on, *because / but / so* prompts, then sentence expansion, then a short paragraph). **Say the whole sentence aloud first.** Then write it. One good sentence is better than a long, unfinished one.
 4. **Numbers and "what next."** Do the measurements and calculations in full, with units. End with a question or a prediction.
 
-The daily lessons name the exact drawing, word bank and stems. Printable sheets for Units 1 and 2 put the drawing box, labels, stems and lines on paper: see [Printables](printables/index.html).
+The daily lessons name the exact drawing, word bank and stems. Each notebook hour has its own short review sheet, linked from the lesson: see [Review sheets](printables/index.html).
 
 ## How the guide helps
 

@@ -37,3 +37,5 @@ Every exercise, problem and explanation on this site is original. The works belo
 - Ørberg, H. H. *Lingua Latina per se Illustrata, Pars I: Familia Romana*. Domus Latina; North American edition Focus/Hackett. (Natural method: Latin understood from context, pictures and notes. Referenced, not reproduced.)
 - Bell, B., illustrated by Forte, H. (1999). *Minimus: Starting out in Latin*. Cambridge University Press. ISBN 9780521659604. (A primary Latin course using pictures and stories. Referenced as a method model and optional companion; not reproduced.)
 - Hochman, J. C., & Wexler, N. (2017). *The Writing Revolution*. Jossey-Bass. (Sentence-level activities used in the notebook: kernels, *because / but / so*, sentence expansion, and single-paragraph outlines.)
+
+- Rosenshine, B. (2012). Principles of Instruction: Research-based strategies that all teachers should know. *American Educator*, 36(1), 12–19, 39. Also issued by the International Academy of Education (2010). https://www.aft.org/sites/default/files/periodicals/Rosenshine.pdf (explicit instruction: models, guided practice, checks for understanding, independent practice, small steps.)

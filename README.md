@@ -32,8 +32,8 @@ About 1 hour 40 minutes of focused mathematics (mental math, core lesson, challe
 
 - Placement check with answer key and starting-level routing (Levels 1–8, plus problem-solving readiness).
 - Level map: 12 levels with mathematics and space themes.
-- **Unit 1 (Level 4: large numbers, Days 1–5)** and **Unit 2 (Level 5: multiplication and division, Days 6–10)**: 10 full days, each with mental math, a CPA core lesson, challenge problems, a math circle problem, Spanish, Latin, a scaffolded notebook task, guide notes, printable worksheets, and a separate answer key.
-- Daily plan, Today page (counts school days from a start date you set), notebook guide (how the writing steps work), printables index and unit PDFs, progress page (checkboxes saved in your browser, with export and import).
+- **Unit 1 (Level 4: large numbers, Days 1–5)** and **Unit 2 (Level 5: multiplication and division, Days 6–10)**: 10 full days, each with mental math, a CPA core lesson, challenge problems, a math circle problem, Spanish, Latin, a scaffolded notebook task, guide notes, a short review sheet for each lesson, and a separate answer key.
+- Daily plan, Today page (counts school days from a start date you set), notebook guide (how the writing steps work), review-sheet index, progress page (checkboxes saved in your browser, with export and import).
 
 ## Planned
 
@@ -48,7 +48,6 @@ Content is Markdown in `content/`. To rebuild `docs/`:
 ```
 python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
 .venv/bin/python build.py
-.venv/bin/python make_pdfs.py   # Unit 1 and Unit 2 combined worksheet PDFs (needs Google Chrome)
 .venv/bin/python check_links.py
 ```
 

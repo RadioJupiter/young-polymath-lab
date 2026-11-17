@@ -23,7 +23,7 @@ Do this with your guide over one or two sittings. It is not a test to pass: it f
 12. Three bags hold 24 rocks shared equally. How many rocks are in 5 such bags?
 
 ## Level 4
-13. Write 3,050,400 in words.
+13. Show 3,050,400 on a place-value chart. What is 10 times this number? What is 3,050,400 as 3,000,000 + ?
 14. Round 46,750 to the nearest thousand.
 15. 38,406 + 27,895
 16. 50,000 − 18,763

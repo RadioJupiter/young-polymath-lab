@@ -55,3 +55,19 @@ The hour of notebook and project time, modelled on Leonardo da Vinci's notebooks
 The guide (a parent or tutor) reads the guide notes, runs the concrete step, gives hints in stages, checks answers with the keys, and decides when a unit check shows mastery. The guide does not need to be a mathematician; the keys explain every solution. For Spanish and Latin, the guide speaks or reads slowly, points at the pictures, and acts out commands with the student. For the notebook, the guide follows [How the notebook works](notebook.html).
 
 Full references: [Sources](sources.html).
+
+## How a lesson is taught
+
+Every lesson follows a short explicit-instruction sequence, after Barak Rosenshine's *Principles of Instruction* (2012): **Learn** (a clear explanation and the fact, rule or method), **Remember** (the compact form of that rule), **Watch me** (one or two fully worked examples), **Together** (a guided problem with hints), **Check** (two or three questions that use only the skill just taught), then independent practice. The Check and the review sheet never introduce a new skill.
+
+A Listen button reads the explanation in English. In Spanish and Latin lessons, the explanations are still in English; only the words being taught have a short Hear-word clip in that language. Nothing is sent to a network: the browser's own voice is used, and if a voice is missing the page can still be read.
+
+## What the mathematics is, and what it is not
+
+The mathematics follows the Singapore method, not American standardised-test habits. Place value is taught with discs and a chart, then with number bonds and ×10 as a shift of place. Word problems use part-whole, comparison and change **bar models**. Mental work uses make-ten, compensation, splitting, and double-and-halve. Harder problems use named heuristics (a smaller case, a systematic list, work backwards, draw a diagram). Practice is varied on the same skill, not a battery of test-item types.
+
+We do not set writing a number "in words", a named "expanded form" drill, "what is the value of the digit …", "make the largest and smallest numbers from these digits", or a bare "round to the nearest ten, hundred and thousand" list, as things to learn. Those are test habits. A place-value sum that records disc values (300,000 + 80,000 + 4,000 + 400) may appear in the abstract step, because that is how the discs are written down, not because "expanded form" is a goal.
+
+## Review sheets
+
+Each lesson has its own short review sheet (one page, at most two), linked from the lesson. It is for retention after the teaching, and it mirrors the Remember card and the Check. There are no combined unit packets.
