@@ -84,3 +84,9 @@ Every exercise, problem and explanation on this site is original. The works belo
 - Speed of light, already taught: about 300,000 km/s; exact SI value 299,792,458 m/s (BIPM, SI Brochure, 9th ed.).
 - Day 5’s Solar System walk scale, already taught: **1 cm : 70,000 km** around a 20 cm Sun. Level 10’s Earth–Moon size model uses a different labeled scale, **1 cm : 1,000 km**.
 - Classroom mixes, maps, walks, buses, and collections in Days 31–35 are **invented classroom numbers**, labeled as invented. Lessons do not invent a NASA rocket-fuel recipe, a cm-to-light-year star-chart scale, a planetary orbital speed, or a NASA composition percent.
+
+## Unit 8 / Level 11
+
+- NASA Planetary Fact Sheet, used for mean distance from the Sun (10^6 km) and orbital period (days): Mercury 57.9, 88.0; Venus 108.2, 224.7; Earth 149.6, 365.2; Mars 228.0, 687.0; Jupiter 778.5, 4331. The Moon’s 0.384 million km and 27.3-day figures are marked with an asterisk on the sheet and are taught as figures about the Moon and Earth, not a year around the Sun. https://nssdc.gsfc.nasa.gov/planetary/factsheet/ (page last updated 13 November 2026, as captured for this unit).
+- 687.0 ÷ 365.2 is taught as about 1.88 Earth years for a Mars year, a little less than 2; “exactly 2” is refused. 4331 ÷ 365.2 is about 11.86, spoken as about 12 Earth years, without a long homemade string of figures.
+- Classroom totals, masses, distances, and input-output rules in Days 36–40 are **invented classroom numbers**, labeled as invented. Lessons do not invent a NASA official balance number, a NASA crane figure, an orbital-speed formula, or a period-from-distance law.

@@ -16,7 +16,7 @@ Every level has the same strands: **number and calculation**, **modeling with ba
 | 8 | Geometry: angles, polygons, circles (radius, diameter, circumference), symmetry, constructions | Telescopes and lenses; craters; why orbits are curved (a first look, no invented orbital speed; crater figures sourced and modeled honestly) | **Unit 5 written (Days 21–25), with end-of-level check** |
 | 9 | Decimals and negative numbers | Planet temperatures; precise measurements | **Unit 6 written (Days 26–30), with end-of-level check** |
 | 10 | Ratio, rate, scale and percent | Scale maps of the sky; rocket fuel mixtures; speed | **Unit 7 written (Days 31–35), with end-of-level check** |
-| 11 | Pre-algebra: unknowns, equations, patterns and functions | Patterns in planetary data; the balance and the lever | planned |
+| 11 | Pre-algebra: unknowns, equations, patterns and functions | Patterns in planetary data; the balance and the lever | **Unit 8 written (Days 36–40), with end-of-level check** |
 | 12 | Data, graphs and probability | Counting meteors; sunspots; measuring with error | planned |
 
 **Running through every level:** the math circle strand (logic, systematic counting, parity, invariants, the pigeonhole principle, number theory, geometry puzzles), the notebook strand (observation, measurement, experiments, invention, with scaffolded writing), and daily beginner Spanish and Latin (the same language sequence is used whatever the mathematics level).
