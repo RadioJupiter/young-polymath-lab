@@ -118,7 +118,7 @@ def item_box(n: int, text: str, tall: bool = False) -> str:
 def sheet_html(site_title: str, day_title: str, day_id: str, sec: dict, items: list[str], remember: str, css_href: str) -> str:
     title = sec["name"]
     banner = (
-        "Review sheet — use this after the lesson. These questions practise only "
+        "Review sheet — use this after the lesson. These questions practice only "
         "what this lesson taught. Answers are on the day's answer-key page, not here."
     )
     rem = f'<div class="remember"><p class="kicker">Remember</p>{md_lite(remember)}</div>' if remember else ""

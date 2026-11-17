@@ -96,12 +96,26 @@ button.listen-inline { margin-right: .4rem; padding: .1rem .45rem; font-size: .7
 
 /* Singapore pictorials: place-value discs and number bonds */
 .discs{display:flex;flex-wrap:wrap;gap:.35rem;align-items:center;margin:.5rem 0}
-.disc{display:inline-flex;align-items:center;justify-content:center;width:2.4rem;height:2.4rem;border:2px solid var(--ink);border-radius:50%;font-family:var(--sans);font-size:.68rem;font-weight:700;background:#fff;text-align:center;line-height:1.05;padding:.15rem}
-.disc.d10{border-width:2.5px}
-.disc.d100{background:var(--accent-soft)}
-.disc.d1000{background:#fff;box-shadow:inset 0 0 0 2px var(--ink)}
-.nbond{display:flex;flex-direction:column;align-items:center;width:12rem;margin:.8rem 0;font-family:var(--sans)}
-.nbond .whole{border:2px solid var(--ink);border-radius:50%;width:3.2rem;height:3.2rem;display:flex;align-items:center;justify-content:center;font-weight:700;background:#fff}
-.nbond .arms{width:8rem;height:1.1rem;border:none;border-bottom:2px solid var(--ink);border-left:2px solid var(--ink);border-right:2px solid var(--ink);margin:.1rem 0 0}
-.nbond .parts{display:flex;justify-content:space-between;width:8.6rem}
-.nbond .parts span{border:2px solid var(--ink);border-radius:50%;width:2.6rem;height:2.6rem;display:flex;align-items:center;justify-content:center;background:#fff;font-weight:700;font-size:.85rem}
+
+/* Number bonds and discs: size the shape to the text, not the other way around. */
+.nbond{display:flex;flex-direction:column;align-items:center;width:auto;min-width:12rem;max-width:24rem;margin:.8rem 0;font-family:var(--sans)}
+.nbond .whole,.nbond .parts span{
+  border:2px solid var(--ink);border-radius:999px;width:auto;min-width:2.8rem;min-height:2.8rem;height:auto;
+  padding:.4rem .75rem;display:inline-flex;align-items:center;justify-content:center;
+  font-weight:700;background:#fff;white-space:nowrap;line-height:1.15;font-size:.85rem;text-align:center;
+  box-sizing:border-box;
+}
+.nbond .arms{align-self:stretch;min-width:9rem;height:1.15rem;border:none;border-bottom:2px solid var(--ink);border-left:2px solid var(--ink);border-right:2px solid var(--ink);margin:.15rem 0 0}
+.nbond .parts{display:flex;justify-content:space-between;align-items:flex-start;align-self:stretch;gap:1rem;margin-top:.25rem}
+.disc{display:inline-flex;align-items:center;justify-content:center;width:auto;min-width:2.4rem;min-height:2.4rem;height:auto;padding:.2rem .35rem;border:2px solid var(--ink);border-radius:999px;font-family:var(--sans);font-size:.68rem;font-weight:700;background:#fff;text-align:center;line-height:1.05;white-space:nowrap}
+
+
+.barmodel .bar{display:flex;width:100%;flex:none;min-width:0;align-items:stretch;box-sizing:border-box}
+.barmodel .bar .seg{flex:1 1 0;width:auto;min-width:0;padding:.15rem .3rem;font-size:.78rem}
+
+
+.barmodel .lbl{width:8.2rem;line-height:1.2}
+.barmodel .stack{flex:1;min-width:0;display:flex;flex-direction:column}
+.barmodel .caps{display:flex;font-size:.78rem;color:var(--ink);margin-top:.2rem;font-weight:600}
+.barmodel .caps span{text-align:center;line-height:1.2;padding:0 .15rem}
+.barmodel .bar .seg{height:2rem}
