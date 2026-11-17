@@ -39,3 +39,9 @@ Every exercise, problem and explanation on this site is original. The works belo
 - Hochman, J. C., & Wexler, N. (2017). *The Writing Revolution*. Jossey-Bass. (Sentence-level activities used in the notebook: kernels, *because / but / so*, sentence expansion, and single-paragraph outlines.)
 
 - Rosenshine, B. (2012). Principles of Instruction: Research-based strategies that all teachers should know. *American Educator*, 36(1), 12–19, 39. Also issued by the International Academy of Education (2010). https://www.aft.org/sites/default/files/periodicals/Rosenshine.pdf (explicit instruction: models, guided practice, checks for understanding, independent practice, small steps.)
+
+## Unit 3 / Level 6 (additional figures)
+
+- NASA Moon fact sheet: surface gravity 1.62 m/s² against Earth 9.80 m/s², ratio about 0.165, used in lessons as **about 1/6**; synodic month 29.53 days, used as **about 29½ days**; sidereal month 27.3217 days, used as **about 27⅓ days**. https://nssdc.gsfc.nasa.gov/planetary/factsheet/moonfact.html
+- NASA Mars fact sheet: mean surface gravity 3.73 m/s² against Earth 9.82 m/s², ratio about 0.380, which is **19/50**. **2/5 = 0.4** is taught as a slightly high estimate, and is labeled as an estimate. https://nssdc.gsfc.nasa.gov/planetary/factsheet/marsfact.html
+- Mass and weight are kept distinct: mass does not change on the Moon; the pull is about 1/6 as strong. First quarter is taught as half the near-side disk lit; “quarter” refers to about a quarter of the synodic cycle, not to a quarter-lit disk.
