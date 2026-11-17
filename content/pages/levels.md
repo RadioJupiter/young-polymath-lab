@@ -12,7 +12,7 @@ Every level has the same strands: **number and calculation**, **modeling with ba
 | 4 | Numbers to a billion; multi-digit addition and subtraction; rounding and estimating; part-whole and comparison models | Distances in the Solar System; scale models | **Unit 1 written (Days 1–5)** |
 | 5 | Multi-digit multiplication and division; area model; remainders; time and rates | The ISS, Earth's orbit, light-time, the pendulum | **Unit 2 written (Days 6–10)** |
 | 6 | Fractions: parts of a whole, equivalence, comparing, adding and subtracting | Moon phases; gravity on other worlds (the Moon's is about 1/6 of Earth's) | **Unit 3 written (Days 11–15), with end-of-level check** |
-| 7 | Measurement and the metric system; perimeter, area, volume | Designing a base on Mars; how much air and water | planned |
+| 7 | Measurement and the metric system; perimeter, area, volume | Designing a base on Mars; how much air and water (invented classroom plans, labeled; NASA and BIPM figures sourced) | **Unit 4 written (Days 16–20), with end-of-level check** |
 | 8 | Geometry: angles, polygons, circles (radius, diameter, circumference), symmetry, constructions | Telescopes and lenses; craters; why orbits are curved | planned |
 | 9 | Decimals and negative numbers | Planet temperatures; precise measurements | planned |
 | 10 | Ratio, rate, scale and percent | Scale maps of the sky; rocket fuel mixtures; speed | planned |

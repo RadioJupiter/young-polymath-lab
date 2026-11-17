@@ -36,3 +36,7 @@ The rest of the mathematics already used concrete → pictorial → abstract, pa
 ## After the rewrite (intended standard)
 
 Every lesson follows Learn → Remember → Watch me → Together (hints) → Check (only skills just taught) → independent practice or the day’s problem. Review sheets are one short page per lesson, for retention, matching the taught skill. Combined unit packets are retired. Listen-aloud is in English; only Spanish or Latin vocabulary clips use those languages.
+
+## Unit 4 / Level 7 (this chunk)
+
+Level 7 (Days 16–20) follows the same explicit-instruction order and one-page-per-lesson reviews. Measurement is taught with official metric relations (place-value shifts; 1 L = 1,000 cm³) and Singapore-style pictorial models (walk-around perimeter, unit-square area, layers of cubes for volume). Habitat box and tank sizes are invented and labeled. NASA diameter and pressure figures, and BIPM liter relations, are sourced. Circumference and life-support rates are not invented. The Day 20 check is a mastery decision (four out of five or better on each part), not a score, badge, or reward. Notebook pages use because / but / so stems, a word bank, and draw-then-label-then-write. Spanish and Latin stay short present-tense picture lessons; SI units are not put into the Latin sentences.

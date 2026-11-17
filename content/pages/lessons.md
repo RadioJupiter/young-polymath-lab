@@ -17,7 +17,12 @@
 | Unit 3 · Day 13 | [Adding the same-size parts](days/d13.html) (like fractions) | [Keys](keys/d13.html) |
 | Unit 3 · Day 14 | [Different parts, one bar](days/d14.html) (unlike denominators) | [Keys](keys/d14.html) |
 | Unit 3 · Day 15 | [Level 6 check](days/d15.html) (end-of-level check) | [Keys](keys/d15.html) |
+| Unit 4 · Day 16 | [Meters, centimeters, and a planet's size](days/d16.html) (metric length; Mars's diameter) | [Keys](keys/d16.html) |
+| Unit 4 · Day 17 | [Distance around a pad](days/d17.html) (perimeter of rectangles and L-shapes) | [Keys](keys/d17.html) |
+| Unit 4 · Day 18 | [Covering a floor](days/d18.html) (area of rectangles, L-shapes, and right triangles) | [Keys](keys/d18.html) |
+| Unit 4 · Day 19 | [A box, a liter, and a labeled habitat](days/d19.html) (volume and the liter) | [Keys](keys/d19.html) |
+| Unit 4 · Day 20 | [Level 7 check](days/d20.html) (end-of-level check) | [Keys](keys/d20.html) |
 
-Units 1–3 cover **Level 4** (big numbers), **Level 5** (multiplication and division), and **Level 6** (fractions, Moon phases, and gravity on other worlds) of the [level map](levels.html). Each day has mental math, a core lesson, challenge problems, a math circle, a short Spanish lesson, a short Latin lesson, and a notebook project (with writing stems and a printable worksheet set).
+Units 1–4 cover **Level 4** (big numbers), **Level 5** (multiplication and division), **Level 6** (fractions, Moon phases, and gravity on other worlds), and **Level 7** (metric measurement, perimeter, area, and volume, with a labeled Mars-habitat model) of the [level map](levels.html). Each day has mental math, a core lesson, challenge problems, a math circle, a short Spanish lesson, a short Latin lesson, and a notebook project (with writing stems and a printable worksheet set).
 
-**Math circle topics so far:** systematic counting, logic grids, magic squares, parity, the balance puzzle, counting pairs, the pigeonhole principle, divisibility tests, sand-timer puzzles, colouring invariants.
+**Math circle topics so far:** systematic counting, logic grids, magic squares, parity, the balance puzzle, counting pairs, the pigeonhole principle, divisibility tests, sand-timer puzzles, colouring invariants. Unit 4 adds a comparing argument (is a rounded 6,800 km still honest?), a same-perimeter / different-area observation, a units argument (why a length is not an area), and a last argument about labeling invented models beside sourced facts.
