@@ -19,7 +19,7 @@ Every level has the same strands: **number and calculation**, **modelling with b
 | 11 | Pre-algebra: unknowns, equations, patterns and functions | Patterns in planetary data; the balance and the lever | planned |
 | 12 | Data, graphs and probability | Counting meteors; sunspots; measuring with error | planned |
 
-**Running through every level:** the math circle strand (logic, systematic counting, parity, invariants, the pigeonhole principle, number theory, geometry puzzles) and the notebook strand (observation, measurement, experiments, invention).
+**Running through every level:** the math circle strand (logic, systematic counting, parity, invariants, the pigeonhole principle, number theory, geometry puzzles), the notebook strand (observation, measurement, experiments, invention, with scaffolded writing), and daily beginner Spanish and Latin (the same language sequence is used whatever the mathematics level).
 
 ## What "mastered" means
 

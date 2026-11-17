@@ -29,3 +29,11 @@ Every exercise, problem and explanation on this site is original. The works belo
 - Pendulum period, T ≈ 2π√(L/g), for small swings: any introductory physics text, e.g. OpenStax *College Physics 2e*, §16.4: https://openstax.org/books/college-physics-2e/pages/16-4-the-simple-pendulum
 - Christiaan Huygens and the pendulum clock (1656): The Seiko Museum Ginza, "The invention of the pendulum clock", https://museum.seiko.co.jp/en/knowledge/MechanicalTimepieces03/
 - Galileo's discovery of Jupiter's moons (January 1610): NASA, https://science.nasa.gov/jupiter/jupiter-moons/
+
+## Language and writing
+
+- Krashen, S. D. (1982). *Principles and Practice in Second Language Acquisition*. Pergamon. (The input hypothesis: acquisition occurs when the learner understands messages a little beyond the current level, i + 1, with the help of context. A copy of the 1982 text is posted by the author at https://www.sdkrashen.com/content/books/principles_and_practice.pdf)
+- Asher, J. J. *Learning Another Language Through Actions*. Sky Oaks Productions. (Total Physical Response: show understanding of commands by action; speaking comes when the learner is ready.)
+- Ørberg, H. H. *Lingua Latina per se Illustrata, Pars I: Familia Romana*. Domus Latina; North American edition Focus/Hackett. (Natural method: Latin understood from context, pictures and notes. Referenced, not reproduced.)
+- Bell, B., illustrated by Forte, H. (1999). *Minimus: Starting out in Latin*. Cambridge University Press. ISBN 9780521659604. (A primary Latin course using pictures and stories. Referenced as a method model and optional companion; not reproduced.)
+- Hochman, J. C., & Wexler, N. (2017). *The Writing Revolution*. Jossey-Bass. (Sentence-level activities used in the notebook: kernels, *because / but / so*, sentence expansion, and single-paragraph outlines.)

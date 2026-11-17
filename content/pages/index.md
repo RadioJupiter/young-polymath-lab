@@ -8,7 +8,8 @@ Real mathematics, learned through the real universe. Every unit is built around 
 <a href="placement.html"><strong>Placement</strong><span>Find the right starting level.</span></a>
 <a href="levels.html"><strong>Level map</strong><span>Twelve levels, from first foundations to pre-algebra.</span></a>
 <a href="lessons.html"><strong>Lessons</strong><span>Units 1 and 2: ten complete days.</span></a>
-<a href="notebook.html"><strong>Notebook</strong><span>The Leonardo-style notebook: observe, sketch, invent.</span></a>
+<a href="notebook.html"><strong>Notebook</strong><span>How the notebook works: draw, label, then write.</span></a>
+<a href="printables/index.html"><strong>Printables</strong><span>Worksheets to print for Units 1 and 2.</span></a>
 <a href="progress.html"><strong>Progress</strong><span>Your checkmarks, saved only in this browser.</span></a>
 <a href="methods.html"><strong>Method</strong><span>How and why this is taught the way it is.</span></a>
 <a href="sources.html"><strong>Sources</strong><span>Where every fact and method comes from.</span></a>
@@ -16,8 +17,9 @@ Real mathematics, learned through the real universe. Every unit is built around 
 
 ## How it works
 
+- **The language of instruction is English.** Spanish and Latin are short daily subjects.
 - **You move up by mastery, not by birthday.** When you have mastered a level, you go on. When something is not yet solid, you stay with it until it is.
-- **Every day has five parts:** mental math, a core lesson, challenge problems, a math circle problem, and notebook time.
+- **Every day has a fixed order:** mental math, a core lesson, challenge problems, a math circle problem, Spanish, Latin, and notebook time.
 - **Hard problems are the point.** Being stuck is normal and useful. Try for a while, try a different way, draw a picture, then ask for a hint.
 - **Every number about space here is real**, taken from NASA and other authoritative sources and rounded honestly. Nothing is made up to look exciting; it doesn't need to be.
 

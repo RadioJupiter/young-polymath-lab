@@ -12,6 +12,7 @@ Usage: python3 build.py   (needs the 'markdown' package: pip install -r requirem
 import json, re, shutil, html
 from pathlib import Path
 import markdown
+import printables
 
 ROOT = Path(__file__).resolve().parent
 SRC, OUT = ROOT / "content", ROOT / "docs"
@@ -70,7 +71,11 @@ def build():
         title, meta, intro, secs = parse_day(p)
         days.append({"id": f, "title": title, "meta": meta,
                      "sections": [{"id": f"{f}-{s['id']}", "name": s["name"]} for s in secs]})
-        body = [f'<p class="crumbs"><a href="../index.html">Home</a> · <a href="../today.html">Today</a> · <a href="../keys/{f}.html">Answer keys for this day</a></p>',
+        crumbs = f'<p class="crumbs"><a href="../index.html">Home</a> · <a href="../today.html">Today</a> · <a href="../keys/{f}.html">Answer keys for this day</a>'
+        if site.get("has_printables"):
+            crumbs += f' · <a href="../printables/{f}.html">Printables for this day</a>'
+        crumbs += "</p>"
+        body = [crumbs,
                 f"<h1>{html.escape(title)}</h1>", md(intro)]
         body.append('<nav class="toc">' + "".join(f'<a href="#{s["id"]}">{html.escape(s["name"])}</a>' for s in secs) + "</nav>")
         kbody = [f'<p class="crumbs"><a href="../days/{f}.html">Back to the lessons</a></p>',
@@ -97,6 +102,8 @@ def build():
         if f.exists():
             title, rest = split_title(f.read_text())
             (OUT / f"{name}.html").write_text(page(title, f"<h1>{html.escape(title)}</h1>\n" + md(rest)))
+    if site.get("has_printables"):
+        printables.build_printables(site, SRC, OUT, page)
     print(f"built {len(days)} days and {len(list((SRC/'pages').glob('*.md')))} pages into {OUT}")
 
 if __name__ == "__main__":

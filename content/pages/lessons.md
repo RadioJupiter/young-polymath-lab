@@ -13,6 +13,6 @@
 | Unit 2 · Day 9 | [Messages at the speed of light](days/d09.html) (light-time; pendulum experiment) | [Keys](keys/d09.html) |
 | Unit 2 · Day 10 | [Mission planning day](days/d10.html) (unit check; mission design) | [Keys](keys/d10.html) |
 
-Units 1 and 2 cover **Level 4** (big numbers) and **Level 5** (multiplication and division) of the [level map](levels.html). Each day has five parts: mental math, core lesson, challenge problems, math circle and notebook.
+Units 1 and 2 cover **Level 4** (big numbers) and **Level 5** (multiplication and division) of the [level map](levels.html). Each day has mental math, a core lesson, challenge problems, a math circle, a short Spanish lesson, a short Latin lesson, and a notebook project (with writing stems and a printable worksheet set).
 
 **Math circle topics so far:** systematic counting, logic grids, magic squares, parity, the balance puzzle, counting pairs, the pigeonhole principle, divisibility tests, sand-timer puzzles, colouring invariants.

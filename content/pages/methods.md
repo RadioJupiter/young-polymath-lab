@@ -2,6 +2,8 @@
 
 This page explains how the course teaches a strong young mathematician, and why. The short version: **solid foundations, taught with understanding, at the pace of mastery, with hard problems every day, all inside a world of real science.**
 
+The language of instruction is English. Spanish and Latin are taught as short daily subjects.
+
 ## 1. Mastery and acceleration, with depth
 
 The student moves on when a level is mastered, not when a calendar says so. The research supports this: a large review of a century of studies found that academic acceleration has clear positive effects on the achievement of high-ability students (Steenbergen-Hu, Makel & Olszewski-Kubilius, 2016), and the Study of Mathematically Precocious Youth, which has followed mathematically talented young people for decades, argues that appropriately challenging opportunities, acceleration among them, help such talent develop (Lubinski & Benbow, 2006). Acceleration alone can turn into racing through procedures, so every lesson pairs pace with depth: challenge problems and the math circle are never skipped.
@@ -30,11 +32,19 @@ Ten minutes of mental calculation opens each day. Fluent facts and strategies (m
 
 Every unit is set in astronomy or physics: distances in the Solar System, the speed of light, orbits, pendulums, the Moon's phases. All numbers come from authoritative sources (NASA's planetary fact sheets, the international definitions of the metre and the astronomical unit) and are rounded honestly, with the rounding stated. Experiments use household materials.
 
-## 8. The notebook
+## 8. Spanish, by comprehensible input
 
-The hour of notebook and project time, modelled on Leonardo da Vinci's notebooks, is where mathematics meets the world: observing, measuring, drawing from life and inventing. It also builds the habit of recording work carefully enough that someone else could check it.
+Fifteen minutes a day of Spanish, understood from pictures, gestures and context rather than from a grammar list. This follows Stephen Krashen's input hypothesis: language is acquired when the learner understands messages a little beyond the current level, with context to help (*Principles and Practice in Second Language Acquisition*, 1982). Commands are acted out first, after James Asher's Total Physical Response (*Learning Another Language Through Actions*): the student shows understanding by moving, and speaks when ready. All stories and exercises here are original.
 
-## 9. What is deliberately left out
+## 9. Latin, by picture-based reading
+
+Fifteen minutes a day of short Latin captions and stories, understood from pictures and repetition, with brief English only as support. This is the idea behind Hans Ørberg's *Lingua Latina per se Illustrata* (read Latin as Latin from the first page) adapted to a beginner pace, in the same spirit as a primary course such as Barbara Bell's *Minimus: Starting out in Latin* (Cambridge University Press, 1999, illustrated by Helen Forte). Neither book is reproduced. *Minimus* is a useful optional companion if a published course is wanted later.
+
+## 10. The notebook, with writing built in steps
+
+The hour of notebook and project time, modelled on Leonardo da Vinci's notebooks, is where mathematics meets the world: observing, measuring, drawing from life and inventing. Because writing is often the hard part, the hour always goes **draw → label from a word bank → sentences from stems**, then gradually *because / but / so*, sentence expansion, and short paragraphs, using the sentence-level activities of The Writing Revolution (Hochman and Wexler, 2017). The guide's role at each step is set out on [How the notebook works](notebook.html).
+
+## 11. What is deliberately left out
 
 - **No points, badges, streaks or leaderboards.** Motivation comes from interesting problems and from visibly being able to do more than before.
 - **No babyish framing.** Lessons speak directly and respectfully, and the guide notes speak to the adult.
@@ -42,6 +52,6 @@ The hour of notebook and project time, modelled on Leonardo da Vinci's notebooks
 
 ## The guide's role
 
-The guide (a parent or tutor) reads the guide notes, runs the concrete step, gives hints in stages, checks answers with the keys, and decides when a unit check shows mastery. The guide does not need to be a mathematician; the keys explain every solution.
+The guide (a parent or tutor) reads the guide notes, runs the concrete step, gives hints in stages, checks answers with the keys, and decides when a unit check shows mastery. The guide does not need to be a mathematician; the keys explain every solution. For Spanish and Latin, the guide speaks or reads slowly, points at the pictures, and acts out commands with the student. For the notebook, the guide follows [How the notebook works](notebook.html).
 
 Full references: [Sources](sources.html).

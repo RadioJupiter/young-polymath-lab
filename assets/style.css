@@ -56,6 +56,8 @@ details.progress-day summary{cursor:pointer;display:flex;justify-content:space-b
 .barmodel .seg{border:1.5px solid var(--ink);height:1.8rem;display:flex;align-items:center;justify-content:center;background:#fff;margin-right:-1.5px}
 .barmodel .seg.u{background:var(--accent-soft)}
 .barmodel .brace{text-align:center;color:var(--muted);font-size:.8rem}
+svg.pic{display:block;margin:.8rem 0;background:#fff;border:1px solid var(--rule);max-width:100%;height:auto}
+.pic-cap{font-family:var(--sans);font-size:.82rem;color:var(--muted);margin:.2rem 0 1rem}
 footer{border-top:1px solid var(--rule);padding:1.5rem;text-align:center;font-family:var(--sans);font-size:.8rem;color:var(--muted)}
 @media print{header.top,footer,.keylink,label.done,nav.toc{display:none}.lesson{border:none;page-break-inside:avoid}}
 @media (max-width:600px){html{font-size:16px}h1{font-size:1.7rem}.lesson{padding:.3rem .9rem .8rem}}

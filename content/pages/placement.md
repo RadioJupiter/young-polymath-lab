@@ -1,5 +1,7 @@
 # Placement check
 
+This check is for mathematics only. Spanish and Latin are beginner courses: start them at Day 1 whatever the mathematics level.
+
 Do this with your guide over one or two sittings. It is not a test to pass: it finds where to start. Work section by section. **Stop** after any section with two or more answers wrong, or when the work stops feeling possible. Show working on paper. Then use the [placement answer key](placement-key.html).
 
 ## Level 1
