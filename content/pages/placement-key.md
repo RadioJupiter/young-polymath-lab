@@ -20,8 +20,8 @@ Find the **first level where fewer than 3 of the 4 answers are correct**. Start 
 |---|---|
 | Levels 1–3 secure, Level 4 not | Start at **Unit 1, Day 1** as written. |
 | Level 4 secure, Level 5 not | Do Unit 1 briskly: mental math, a short check of the core practice, and every challenge, circle and notebook task. Then Unit 2 at normal pace. |
-| Levels 4 and 5 secure | Do Units 1 and 2 as an enrichment fortnight: skip core practice that is already secure, but do every challenge, circle and notebook task (they are not easy at any level). Then move to Level 6 (*planned*: flag it so it is written next). |
+| Levels 4 and 5 secure | Do Units 1 and 2 as an enrichment two weeks: skip core practice that is already secure, but do every challenge, circle and notebook task (they are not easy at any level). Then move to Level 6 (Unit 3, Days 11–15, as written). |
 | Level 3 or below not secure | Start at the first insecure foundation level (Level 1, 2, or 3, now written as Days p01–p15). |
-| Everything through Level 8 secure | The student is ready for pre-algebra and beyond. Units 1–2 still work as a fortnight of challenge, circle and notebook problems, but the core lessons should jump to Level 9 or 11 (*planned*). Consider Art of Problem Solving's *Prealgebra* as the core text alongside. |
+| Everything through Level 8 secure | The student is ready for pre-algebra and beyond. Units 1–2 still work as two weeks of challenge, circle and notebook problems, but the core lessons should jump to Level 9 (Unit 6, Day 26) as written, or to Level 11 (Unit 8, Day 36) if Levels 9 and 10 are already secure. Art of Problem Solving's *Prealgebra* can sit alongside as an extra core text. |
 
 **Problem-solving readiness** does not change the starting level: it shows how much support the challenge problems will need. Fewer than 2 correct: give hints earlier, and solve the first challenge of each day together.
